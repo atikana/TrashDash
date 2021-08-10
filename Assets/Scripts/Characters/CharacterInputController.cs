@@ -19,7 +19,7 @@ public class CharacterInputController : MonoBehaviour
 	public GameObject blobShadow;
 	public float laneChangeSpeed = 1.0f;
 
-	public int maxLife = 3;
+	public int maxLife = 5;
 
 	public Consumable inventory;
 
@@ -104,6 +104,7 @@ public class CharacterInputController : MonoBehaviour
 		characterCollider.transform.localPosition = Vector3.zero;
 
         currentLife = maxLife;
+
 
 		m_Audio = GetComponent<AudioSource>();
 

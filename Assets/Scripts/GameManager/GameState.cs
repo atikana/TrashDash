@@ -65,7 +65,7 @@ public class GameState : AState
     protected bool m_AdsInitialised = false;
     protected bool m_GameoverSelectionDone = false;
 
-    protected int k_MaxLives = 3;
+    protected int k_MaxLives = 5;
 
     public override void Enter(AState from)
     {
@@ -271,7 +271,7 @@ public class GameState : AState
         coinText.text = trackManager.characterController.coins.ToString();
         premiumText.text = trackManager.characterController.premium.ToString();
 
-		for (int i = 0; i < 3; ++i)
+		for (int i = 0; i < k_MaxLives; ++i)
 		{
 
 			if(trackManager.characterController.currentLife > i)
