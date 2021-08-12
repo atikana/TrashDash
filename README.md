@@ -5,7 +5,7 @@
 	If older please update your unity version
 	If newer please let unity update the project version
 3. Go to the Assets/Scenes
-4. Drag "Main" Scenes into the hierarchy tab
+4. Drag "Main" scene into the hierarchy tab , remove the sample scene
 5. Press play
 
 
